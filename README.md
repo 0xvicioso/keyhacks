@@ -463,6 +463,9 @@ curl -u "USERNAME:ACCESS_KEY" https://api.browserstack.com/automate/plan.json
 | Timezone | https://maps.googleapis.com/maps/api/timezone/json?location=39.6034810,-119.6822510&timestamp=1331161200&key=KEY_HERE | $5 |
 | Roads | https://roads.googleapis.com/v1/nearestRoads?points=60.170880,24.942795\|60.170879,24.942796\|60.170877,24.942796&key=KEY_HERE | $10|
 | Geolocate | https://www.googleapis.com/geolocation/v1/geolocate?key=KEY_HERE| $5 |
+| Pollen Information | https://pollen.googleapis.com/v1/forecast:lookup?key=YOUR_API_KEY&location.longitude=35.32&location.latitude=32.32&days=4&pageSize=1| $10 |
+| Solar Data Layers | https://solar.googleapis.com/v1/dataLayers:get?KEY_HERE| $75 |
+
 
 *\*Pricing is in USD per 1000 requests (for the first 100k requests)*
 
